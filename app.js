@@ -6,7 +6,11 @@ var fs = require('fs');
 
 app.use(require('connect-requestid'));
 app.get('/', function(request, response) {
-  var request_uri = 'http://samplepdf.com/sample.pdf';
+  response.send("Use format /pdftotext/:uri");
+});
+
+app.get('/pdftotext/:uri', function(request, response) {
+  var request_uri = request.params.uri;
   var id = request.id;
   var filepath = "tmp/" + id + ".pdf";
 
