@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "dependencies": {
     "pdftotextjs": "0.3.x",
-    "express": "3.2.x"
+    "express": "3.2.x",
+    "request": "2.21.x",
+    "connect-requestid": "0.2.x"
   },
   "engines": {
     "node": "0.10.x",
