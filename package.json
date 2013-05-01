@@ -1,8 +1,9 @@
 {
   "name": "pdftotext-heroku",
-  "version": "0.0.01",
+  "version": "0.0.1",
   "dependencies": {
-    "pdftotextjs": "0.3.x"
+    "pdftotextjs": "0.3.x",
+    "express": "3.2.x"
   },
   "engines": {
     "node": "0.10.x",
