@@ -1,12 +1,12 @@
 # pdftotextcloud
 
-I sometimes want to extract text from a PDF in a hack of mine.  The dependencies to do so can be a bit annoying to set up, especially in some hosted environments. Most of the off-the-shelf solutions are janky and/or expensive. Thus, here is a quick pdftotext as a web service friendly for hackers.
+I sometimes want to extract text from a PDF in a project of mine.  The dependencies to do so can be annoying to set up, especially in many hosted environments. Most of the existing off-the-shelf solutions are incredibly janky and/or expensive. Thus, here is a quick "pdftotext as a web service" made friendly for hackers.
 
-You can use my demo instance for free or quickly deploy your own.  pdftotextcloud is non-blocking and designed to be run efficiently on a free Heroku dyno.
+You can use my demo instance for free or quickly deploy your own.  **pdftotextcloud** is non-blocking and designed to run efficiently on a single free Heroku dyno.
 
 
 ## Setup
-You'll need heroku-toolbelt. Clone this repo and then go into it.
+You'll need [heroku-toolbelt](https://toolbelt.heroku.com/). Clone this repo and then from the directory.
 
     $ heroku create
     $ heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
