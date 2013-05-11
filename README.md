@@ -17,7 +17,7 @@ You'll need [heroku-toolbelt](https://toolbelt.heroku.com/). Clone this repo and
 
 If you want to hack on this locally you'll additionally need NodeJS/NPM and a copy of `pdttotext` in your path.  To get `pdftotext`:
  - Ubuntu/Debian `sudo apt-get install poppler-utils`.
- - MacOSX `sudo port install poppler` or `brew install xpdf`.
+ - MacOSX `sudo port install poppler` or `brew install poppler`.
  - Windows download and install Xpdf.
 
 Then do a `npm install`, etc etc.
